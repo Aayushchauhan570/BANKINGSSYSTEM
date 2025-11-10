@@ -1,0 +1,58 @@
+# Node
+node_modules/
+
+# Backend node modules
+/Backend/node_modules/
+
+# Frontend node modules
+/Frontend/node_modules/
+
+# Vite cache and build
+/node_modules/.vite
+.Frontend/node_modules/.vite
+dist/
+.vite/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+Backend/.env
+Frontend/.env
+.env.*
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-workspace
+
+# macOS
+*.DS_Store
+
+# lock files (optional)
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Misc
+coverage/
+
+# IntelliJ
+*.iml
+
+# Local overrides
+.local
+
+# Ignore the audit & change reports if you don't want to commit
+AUDIT_REPORT.md
+CHANGES_SUMMARY.md
+FIX_CHECKLIST.md
+
+# Keep README and setup files but ignore node modules etc
