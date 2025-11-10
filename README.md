@@ -133,10 +133,3 @@ Transactions (auth)
 Add a LICENSE file if you want to publish this repository under a specific license.
 
 ---
-
-If you want, I can:
-- Add a `README` badge grid (build, license, etc.)
-- Add a GitHub Actions workflow to run lint/tests
-- Create a small `.env.example` file
-
-Tell me which of the above you'd like next.
